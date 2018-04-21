@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Assignment</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/callapi.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Source+Sans+Pro" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container" id="container">
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" id="usercharacter">
+        </div>
+        <button type="button" onclick="getApi()" class="btn btn-primary">Search</button>
+      </form>
+        <div id="character-information">
+        <div id="character-data">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-header">Información</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Name: <span class="data" id="character-name"></span></li>
+              <li class="list-group-item">Height: <span class="data "id="character-height"></span></li>
+              <li class="list-group-item">Hair color: <span class="data" id="character-hair-color"></span></li>
+              <li class="list-group-item">Skin color: <span class="data" id="character-skin-color"></span></li>
+              <li class="list-group-item">Eye color: <span class="data" id="character-eye-color"></span></li>
+            </ul>
+          </div>
+        </div>
+        <div id="character-movies">
+          
+        </div>
+        <script>toggleInfo(true)</script>
+      </div>
+    </div>
+  </body>
+</html>

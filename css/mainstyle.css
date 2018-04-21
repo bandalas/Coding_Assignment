@@ -1,0 +1,52 @@
+.container{
+  width: 500px;
+}
+
+.btn-primary{
+  margin-bottom: 20px;
+  background-color: #aca0b7;
+}
+.btn-primary:hover{
+  background-color: #805e9c;
+}
+
+.data, .card-title{
+  font-family: 'Lato', sans-serif;
+  color: #805e9c;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: none;
+}
+
+.card-img-top {
+    width: 50%;
+    margin: auto;
+}
+
+.card{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body{
+  color: #3c3c3c;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  margin-top: 10px;
+}
+
+.card-header{
+  color: #805e9c;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  font-family: 'Source Sans Pro', calibri, sans-serif;
+  letter-spacing: 1px;
+}
+
+.card-body{
+      background-color: rgba(0,0,0,.03);
+}
